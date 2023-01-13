@@ -1,6 +1,9 @@
+import { Component } from 'react'
 import React from 'react'
 
-const ClassComponent = () => {
+
+class ClassComponent extends Component  {
+  render(){
   return (
   <div style={{float:'right'}} id='rightDiv'>
     <div className='functionalDiv'>
@@ -10,6 +13,7 @@ const ClassComponent = () => {
     </div>
   </div>
   )
+}
 }
 
 export default ClassComponent
